@@ -1,42 +1,30 @@
-.header{
-    color: white;
-    background-color: darkblue;
+*{
     margin: 0px;
-    padding: 10px;
-    /* font-weight: extra-bold;
-    font-family: #F9FAF8; */
+    padding: 0px;
 }
 
-.logo{
-    margin: 2px;
+.container{
+    color: white;
+    background-color: rgb(2, 2, 112);
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
 }
 
 .nav-bar{
     display: flex;
-    align-items: center;
-    padding: 5px;
+    justify-content: space-between;
+    padding-inline: 200px;
 }
 
-.sign-up-button{
-    padding: 10px;
-    margin: 5px;
-}
-
-nav{
-    flex: 1;
+.nav-items{
     text-align: right;
 }
 
-nav ul{
-    /* display: inline-block; */
-    list-style-type: none;
+.nav-items ul{
+    display: flex;
+    list-style: none;
 }
 
-nav ul li{
-    display: inline-block;
-    margin-right: 20px;
-}
-
-h1{
-    font-size: 48px;
+.nav-items ul li{
+    margin: 8px;
 }
