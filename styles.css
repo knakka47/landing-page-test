@@ -1,0 +1,36 @@
+.header{
+    color: white;
+    background-color: darkblue;
+    /* font-weight: extra-bold;
+    font-family: #F9FAF8; */
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.sign-up-button{
+    padding: 10px;
+    margin: 2px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    /* display: inline-block; */
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h1{
+    font-size: 48px;
+}
