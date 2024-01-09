@@ -1,19 +1,25 @@
 .header{
     color: white;
     background-color: darkblue;
+    margin: 0px;
+    padding: 10px;
     /* font-weight: extra-bold;
     font-family: #F9FAF8; */
+}
+
+.logo{
+    margin: 2px;
 }
 
 .nav-bar{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
 }
 
 .sign-up-button{
     padding: 10px;
-    margin: 2px;
+    margin: 5px;
 }
 
 nav{
