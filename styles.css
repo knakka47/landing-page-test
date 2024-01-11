@@ -16,9 +16,8 @@ body{
 .nav-bar{
     display: flex;
     color: white;
-    background-color: rgb(5, 2, 102);
+    background-color: rgb(28, 26, 82);
     padding: 20px 0px 20px 100px;
-    /* align-items: center; */
 }
 
 .header-logo img{
@@ -37,14 +36,13 @@ body{
     color: white;
     font-size: 18px;
     padding: 10px;
-    /* font-family: 'Roboto', sans-serif; */
 }
 
 /*Hero Section*/
 
 .hero{
     color: white;
-    background-color: rgb(5, 2, 102);
+    background-color: rgb(28, 26, 82);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,6 +59,8 @@ body{
 }
 
 .hero-cta p{
+    padding-top: 20px;
+    padding-bottom: 20px;
     opacity: 0.8;
 }
 
@@ -72,25 +72,23 @@ body{
     color: white;
     background-color: blue;
     display: block;
-    /* text-align: center; */
     width: 100px;
     padding: 10px;
     border-radius: 8px;
-    /* text-decoration: none; */
     font-weight: bold;
 }
 
 /*Content Section*/
 
 .content{
-    padding: 200px;
-    /* align-items: center; */
+    padding: 100px;
 }
 
 .content-info{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .content-info img{
@@ -107,7 +105,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: rgb(157, 156, 156);
-    padding: 100px;
+    padding: 60px;
 }
 
 .quote p{
@@ -143,10 +141,16 @@ body{
     border-radius: 4px;
 }
 
+.sign-banner p{
+    font-size: 12px;
+    opacity: .4px;
+    font-weight: lighter;
+}
+
 .footer{
     display: flex;
     flex-direction: column;
-    background-color: navy;
+    background-color: rgb(28, 26, 82);
     padding: 10px;
 }
 
